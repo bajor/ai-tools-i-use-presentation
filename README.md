@@ -1,3 +1,11 @@
+# TODO:
+- add gifs with examples
+- separate it better on sections so I can present from github
+
+
+Short presentation about how I use AI tools as of Jul 2025 with humble-bragging about my personal projects so you can see real-world use-cases. 
+
+
 # copilot:
 I don't like code completions. It requires to be detail-oriented and write very precise function names - then it will generate likely what you need. For me it's distracting long-term so I have it disabled.
 
@@ -29,6 +37,7 @@ I have it as a default website in my private computer, I use it daily instead of
 - o3 for more reseach oriented - chain of thought model which evaluates it's own answers
 - 15 deep reseach option for non-trivial tasks
 - I use it for reseach mostly and to learn myself rathern than from books or youtube videos. I usually code something and ask it for help or to explain some subject when I am stuck.
+- tip - personalize it - tell him that for example you are python coder form poland <SHOW HERE SCREENSHOT> - once it nows that it will give you more tailored answers.
 
 
 # codex - from June 3 for ChatGPT Plus users
@@ -69,5 +78,14 @@ Idk, depends who you are. Maybe you can cope some of these techniques and will w
 
 Be very sceptical of everything AI generated and don't trust anything it says. Often what it will generate would be valuable but assume that it's bullshit and work your way from there.
 
+Biggest advantage from working with it - I am not afraid to pick random langauge and write with it now - since I have this senior dev as AI over my shoulder and ask any dumb question I have.
+
+Very short, based article:
+https://ordep.dev/posts/writing-code-was-never-the-bottleneck
+
+***
+LLMs are powerful — but they don’t fix the fundamentals
+There’s real value in faster prototyping, scaffolding, and automation. But LLMs don’t remove the need for clear thinking, careful review, and thoughtful design. If anything, those become even more important as more code gets generated.
+***
 
 
