@@ -7,7 +7,7 @@ export:
 marp presentation.md --pdf
 
 
-# TODO:
+#### TODO:
 - add gifs with examples
 - separate it better on sections so I can present from github
 
@@ -16,7 +16,7 @@ Short presentation about how I use AI tools as of Jul 2025 with humble-bragging 
 
 ---
 
-# copilot:
+#### copilot:
 I don't like code completions. It requires to be detail-oriented and write very precise function names - then it will generate likely what you need. For me it's distracting long-term so I have it disabled.
 
 Selecting parts of code and asking copilot what does it do:
