@@ -49,6 +49,7 @@ I have it as a default website in my private computer, I use it daily instead of
 - 15 deep reseach option for non-trivial tasks
 - I use it for reseach mostly and to learn myself rathern than from books or youtube videos. I usually code something and ask it for help or to explain some subject when I am stuck.
 - tip - personalize it - tell him that for example you are python coder form poland <SHOW HERE SCREENSHOT> - once it nows that it will give you more tailored answers.
+- can use it just by speaking to it if you're walking somewhere or sth <screnshot from app> or you wanna practice language
 
 
 ---

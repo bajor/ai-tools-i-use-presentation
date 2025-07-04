@@ -2,30 +2,62 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>GIF Markdown Presentation</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GIF Markdown Presentation (scaled-down)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Reveal core & theme -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css">
+
+  <!-- Optional: tighten all default font-sizes -->
+  <style>
+    /* Base text for the whole deck (default is ~40 px) */
+    .reveal      { font-size: 22px; }
+
+    /* Headings – adjust to taste */
+    .reveal h1   { font-size: 42px; }
+    .reveal h2   { font-size: 32px; }
+    .reveal h3   { font-size: 26px; }
+
+    /* Paragraphs / list items */
+    .reveal p,
+    .reveal li   { font-size: 22px; }
+
+    /* Code blocks */
+    .reveal pre code { font-size: 18px; }
+  </style>
 </head>
+
 <body>
   <div class="reveal">
     <div class="slides">
+      <!-- External Markdown file -->
       <section data-markdown="slides.md"
                data-separator="^---$"
                data-separator-vertical="^--$"
                data-separator-notes="^Note:"
-               data-charset="utf-8"
-	       data-scale="0.1">
+               data-charset="utf-8">
       </section>
     </div>
   </div>
 
+  <!-- Reveal & Markdown plugin -->
   <script src="https://cdn.jsdelivr.net/npm/reveal.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
   <script>
     Reveal.initialize({
       hash: true,
+
+      /* ---- presentation-size tuning ----
+         “normal” author size is 960×700 px.
+         We up it to 1600×1000, then lock the
+         scale factor at ~0.35 so everything
+         is shrunk on any screen. */
+      width:     1600,
+      height:    1000,
+      minScale:  1.2,
+      maxScale:  1.2,
+
       plugins: [ RevealMarkdown ]
     });
   </script>
