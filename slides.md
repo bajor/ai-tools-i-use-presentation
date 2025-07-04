@@ -1,3 +1,12 @@
+npm install -g @marp-team/marp-cli
+
+live preview:
+marp --preview presentation.md
+
+export:
+marp presentation.md --pdf
+
+
 # TODO:
 - add gifs with examples
 - separate it better on sections so I can present from github
@@ -5,6 +14,7 @@
 
 Short presentation about how I use AI tools as of Jul 2025 with humble-bragging about my personal projects so you can see real-world use-cases. 
 
+---
 
 # copilot:
 I don't like code completions. It requires to be detail-oriented and write very precise function names - then it will generate likely what you need. For me it's distracting long-term so I have it disabled.
@@ -30,6 +40,7 @@ In vs-code you can choose model it will use to answer.
 In jetbrains products this option is disabled (I think) but it as these agents of `\explain` <add what else is avaliable> 
 https://www.jetbrains.com/junie/
 
+---
 
 # chat gpt
 I have it as a default website in my private computer, I use it daily instead of a google.
@@ -39,6 +50,8 @@ I have it as a default website in my private computer, I use it daily instead of
 - I use it for reseach mostly and to learn myself rathern than from books or youtube videos. I usually code something and ask it for help or to explain some subject when I am stuck.
 - tip - personalize it - tell him that for example you are python coder form poland <SHOW HERE SCREENSHOT> - once it nows that it will give you more tailored answers.
 
+
+---
 
 # codex - from June 3 for ChatGPT Plus users
 https://openai.com/index/introducing-codex/
@@ -50,6 +63,8 @@ https://openai.com/index/introducing-codex/
 
 here is PR it created:
 https://github.com/bajor/spark-go-core/pull/1/files
+
+---
 
 # cursor
 - news from 5th of June on techcrunch:
@@ -64,14 +79,17 @@ https://github.com/bajor/c-raylib-playground
 Bugbot - other cursor feature for reviewing PR requests in beta. Similar to what copilot has for premium users.
 https://docs.cursor.com/bugbot
 
+---
 
 # zed
 another very fast GPU accelerated, AI-First IDE. I've used it for few months but I prefer other tools.
 
+---
 
 # local-hosted LLMs
 as LLMs are more and more censoured and more and more available to run them locally I've setup not so long ago ollama uncensoured llm model. Have it in my local network, connect to it via ssh. Works well but the one I have it's gpt 3.5 level - so it's not censourded but not super strong either.
 
+---
 
 # should you use them? does it make sense for you to use them the way I do?
 Idk, depends who you are. Maybe you can cope some of these techniques and will work for you but everyone is different so you'd need to tweak it for you way of work.
