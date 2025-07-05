@@ -130,15 +130,7 @@ TODO: how easy it is to install it
 
 ---
 
-# should you use them? does it make sense for you to use them the way I do?
-
----
-
-Idk, depends who you are. Maybe you can cope some of these techniques and will work for you but everyone is different so you'd need to tweak it for you way of work.
-
-Be very sceptical of everything AI generated and don't trust anything it says. Often what it will generate would be valuable but assume that it's bullshit and work your way from there.
-
-Biggest advantage from working with it - I am not afraid to pick random langauge and write with it now - since I have this senior dev as AI over my shoulder and ask any dumb question I have.
+# so no issues, all great?
 
 ---
 
@@ -148,11 +140,18 @@ https://ordep.dev/posts/writing-code-was-never-the-bottleneck
 > LLMs are powerful — but they don’t fix the fundamentals.
 > There’s real value in faster prototyping, scaffolding, and automation. But LLMs don’t remove the need for clear thinking, careful review, and thoughtful design. If anything, those become even more important as more code gets generated.
 
-**If you don't undestand what it generated - don't use it**
+**If you don't undestand code it generated - don't use it**
 
 Not good for:
 - system design
 - complex logic - easier to describle problem in preceise programming language then in vague english
+
+Be awere of **confimation bias**. AI will often agree with you even if you are not right!
+
+For production ready systems:
+- You must fully understand what you are doing.
+- I find it most valuable in learning and then doing work by myself in better/more optimal/efficient way.
+- I almost never copy paste 1:1 AI code.
 
 ---
 
