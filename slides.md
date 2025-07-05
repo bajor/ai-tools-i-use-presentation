@@ -72,10 +72,6 @@ https://openai.com/index/introducing-codex/
 
 ---
 
-![Demo](./codex_pr.png)
-
----
-
 ![Demo](./open_ai_how_they_use_codex.png)
 
 ---
