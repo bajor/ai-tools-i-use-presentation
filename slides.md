@@ -25,6 +25,10 @@ general question -> more focused -> example in code
 - Generate dummy data:
 <give this prompt, note that ``` because they oftern use markdown for reply>
 
+- Generate unit tests - if you don't have QA - could be better than you would write test for your code as it doesn't assume anything, outside perspective
+
+- Translate from one programming language to another.
+
 ---
 
 - In vs-code you can choose model it will use to answer.
@@ -102,6 +106,7 @@ https://www.youtube.com/watch?v=3F9TdbzjDdE
 - I do not know well java script or C and was able to build MVPs in these langauges in no time.
 - Great for prototyping of non-critical project elements.
 - There is massive mental overhead to review code and undestand in detail what it wrote - hance best to divide it into small comprehendable tasks.
+- **You need to let it run your computer terminal** (which is crazy) - codex is better in this regard as it runs in isolated cloud env
 
 Bugbot in beta:
 - other cursor feature for reviewing code and finding bugs. Basically AI QA engineer.
@@ -116,6 +121,8 @@ https://docs.cursor.com/bugbot
 as LLMs are more and more censoured and more and more available to run them locally I've setup not so long ago ollama uncensoured llm model. Have it in my local network, connect to it via ssh. Works well but the one I have it's gpt 3.5 level - so it's not censourded but not super strong either.
 
 TODO: how easy it is to install it
+
+- trivial to setup
 
 ---
 
@@ -133,11 +140,19 @@ Be very sceptical of everything AI generated and don't trust anything it says. O
 
 Biggest advantage from working with it - I am not afraid to pick random langauge and write with it now - since I have this senior dev as AI over my shoulder and ask any dumb question I have.
 
-Very short, based article:
+---
+
+**Short, based article:**
 https://ordep.dev/posts/writing-code-was-never-the-bottleneck
 
 > LLMs are powerful — but they don’t fix the fundamentals.
 > There’s real value in faster prototyping, scaffolding, and automation. But LLMs don’t remove the need for clear thinking, careful review, and thoughtful design. If anything, those become even more important as more code gets generated.
+
+**If you don't undestand what it generated - don't use it**
+
+Not good for:
+- system design
+- complex logic - easier to describle problem in preceise programming language then in vague english
 
 ---
 
@@ -148,5 +163,3 @@ https://ordep.dev/posts/writing-code-was-never-the-bottleneck
 ![Demo](./ml_street_talk.png)
 
 ---
-
-
