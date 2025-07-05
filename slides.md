@@ -1,22 +1,19 @@
-npm install -g @marp-team/marp-cli
-
-live preview:
-marp --preview presentation.md
-
-export:
-marp presentation.md --pdf
-
-
 #### TODO:
 - add gifs with examples
 - separate it better on sections so I can present from github
+---
 
+
+PK:"L.?
 
 Short presentation about how I use AI tools as of Jul 2025 with humble-bragging about my personal projects so you can see real-world use-cases. 
 
 ---
 
-#### copilot:
+# copilot 
+
+---
+
 I don't like code completions. It requires to be detail-oriented and write very precise function names - then it will generate likely what you need. For me it's distracting long-term so I have it disabled.
 
 Selecting parts of code and asking copilot what does it do:
@@ -43,6 +40,9 @@ https://www.jetbrains.com/junie/
 ---
 
 # chat gpt
+
+---
+
 I have it as a default website in my private computer, I use it daily instead of a google.
 - 4o model for trivial questions - how to boil egg
 - o3 for more reseach oriented - chain of thought model which evaluates it's own answers
@@ -51,10 +51,14 @@ I have it as a default website in my private computer, I use it daily instead of
 - tip - personalize it - tell him that for example you are python coder form poland <SHOW HERE SCREENSHOT> - once it nows that it will give you more tailored answers.
 - can use it just by speaking to it if you're walking somewhere or sth <screnshot from app> or you wanna practice language
 
+---
+
+# codex 
+
+available from June 3 for ChatGPT Plus users
 
 ---
 
-# codex - from June 3 for ChatGPT Plus users
 https://openai.com/index/introducing-codex/
 
 - cloud-based software engineering agent taht can work on many task in parallel.
@@ -62,37 +66,66 @@ https://openai.com/index/introducing-codex/
 - I have very defined, specific tasks for him and this is when it shines I believe. It won't work when you give it very general task - "write me replica of core spark funcitonalities in go". But it will when you ask him to do one very well defined "small" task. 
 - It will evaluate his 
 
-here is PR it created:
-https://github.com/bajor/spark-go-core/pull/1/files
+---
+
+![Demo](./codex_open_ai.png)
+
+---
+
+![Demo](./codex_pr.png)
+
+---
+
+![Demo](./open_ai_how_they_use_codex.png)
 
 ---
 
 # cursor
-- news from 5th of June on techcrunch:
-Anysphere, the maker of AI coding assistant Cursor, has raised $900 million at a $9.9 billion valuation, Bloomberg reported.
+news from 5th of June on techcrunch:
+> Anysphere, the maker of AI coding assistant Cursor, has raised $900 million at a $9.9 billion valuation, Bloomberg reported.
 
-based on vscodium - open-sourced versin of vscode. One for best if not best AI-first IDE now. They had agents at least from over year, I've generated entire front-end for some hobby project while ago now knowing js at all:
+--- 
+
+- based on vscodium - open-sourced versin of vscode. One for best if not best AI-first IDE now. They had agents at least from over year, I've generated entire front-end for some hobby project while ago now knowing js at all:
 https://www.youtube.com/watch?v=3F9TdbzjDdE
 - I've tried it again this month after a while. It got way better. Now if you are that crazy you can let it execute terminal commands and let it test what it generated. Codex is safer in this regard as it does everything in isolated cloud environment. But I thought yolo and let it run these commands in my terminal but after me approving by hand each of them.
 - I was able to generate game in 3-4h with C which again I don't use these days:
 https://github.com/bajor/c-raylib-playground
-
-Bugbot - other cursor feature for reviewing PR requests in beta. Similar to what copilot has for premium users.
+- Bugbot - other cursor feature for reviewing PR requests in beta. Similar to what copilot has for premium users.
 https://docs.cursor.com/bugbot
 
 ---
 
-# zed
-another very fast GPU accelerated, AI-First IDE. I've used it for few months but I prefer other tools.
+![Demo](./cursor.gif)
 
 ---
 
-# local-hosted LLMs
+![Demo](./trend_migrate.gif)
+
+---
+
+![Demo](./raylib_game.gif)
+
+---
+
+# self-hosted LLMs
+
+---
+
 as LLMs are more and more censoured and more and more available to run them locally I've setup not so long ago ollama uncensoured llm model. Have it in my local network, connect to it via ssh. Works well but the one I have it's gpt 3.5 level - so it's not censourded but not super strong either.
+
+TODO: how easy it is to install it
+
+---
+
+![Demo](./local_llm.gif)
 
 ---
 
 # should you use them? does it make sense for you to use them the way I do?
+
+---
+
 Idk, depends who you are. Maybe you can cope some of these techniques and will work for you but everyone is different so you'd need to tweak it for you way of work.
 
 Be very sceptical of everything AI generated and don't trust anything it says. Often what it will generate would be valuable but assume that it's bullshit and work your way from there.
@@ -106,5 +139,15 @@ https://ordep.dev/posts/writing-code-was-never-the-bottleneck
 LLMs are powerful — but they don’t fix the fundamentals
 There’s real value in faster prototyping, scaffolding, and automation. But LLMs don’t remove the need for clear thinking, careful review, and thoughtful design. If anything, those become even more important as more code gets generated.
 ***
+
+---
+
+# maybe we could code until retirement
+
+---
+
+![Demo](./ml_street_talk.png)
+
+---
 
 
