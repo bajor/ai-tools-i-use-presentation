@@ -91,7 +91,7 @@ https://www.youtube.com/watch?v=3F9TdbzjDdE
 
 ---
 
-![Demo](./cursor.gif)
+## AI generated front end one year ago. 80% code taken from AI, 20% - my debugging of it.
 
 ---
 
@@ -99,7 +99,15 @@ https://www.youtube.com/watch?v=3F9TdbzjDdE
 
 ---
 
+## This month - game totally generated with AI. It corrects it's bugs.
+
+---
+
 ![Demo](./raylib_game.gif)
+
+---
+
+![Demo](./cursor.gif)
 
 ---
 
