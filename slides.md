@@ -11,10 +11,8 @@ TODO:
 
 ---
 
-- I don't like code completions. It requires to be detail-oriented and write very precise function names - then it will generate likely what you need. For me it's distracting so I have it disabled.
-
 - Selecting parts of code and asking copilot what does it do:
-<example>
+TODO add <example>
 
 - Askig how would you write this simpler/more optimal:
 <example>
@@ -26,7 +24,6 @@ general question -> more focused -> example in code
 <give this prompt, note that ``` because they oftern use markdown for reply>
 
 - Generate unit tests - if you don't have QA - could be better than you would write test for your code as it doesn't assume anything, outside perspective
-
 - Translate from one programming language to another.
 
 ---
@@ -47,7 +44,6 @@ https://docs.github.com/en/copilot
 
 ---
 
-- I have it as a default website in my private computer, I am addicted to it and use it daily instead of a google - for personal things.
 - 4o model for trivial questions - how to boil egg
 - o3 - for deeper, more reseach oriented - question. Uses chain of thought technique - it evaluates it's own answers and prompts itself to refine response.
 - 15 deep reseach option for non-trivial questions 
@@ -126,7 +122,9 @@ https://docs.cursor.com/bugbot
 
 ---
 
-as LLMs are more and more censoured and more and more available to run them locally I've setup not so long ago ollama uncensoured llm model. Have it in my local network, connect to it via ssh. Works well but the one I have it's gpt 3.5 level - so it's not censourded but not super strong either.
+As LLMs are more and more censoured and more and more available to run them locally I've setup not so long ago ollama uncensoured llm model.
+Have it in my local network, connect to it via ssh.
+Works well but the one I have it's gpt 3.5 level - so it's not censourded but not super strong either.
 
 TODO: how easy it is to install it
 
@@ -142,13 +140,9 @@ TODO: how easy it is to install it
 
 ---
 
-**Short, based article:**
-https://ordep.dev/posts/writing-code-was-never-the-bottleneck
-
 > LLMs are powerful — but they don’t fix the fundamentals.
 > There’s real value in faster prototyping, scaffolding, and automation. But LLMs don’t remove the need for clear thinking, careful review, and thoughtful design. If anything, those become even more important as more code gets generated.
-
-**If you don't undestand code it generated - don't use it**
+https://ordep.dev/posts/writing-code-was-never-the-bottleneck
 
 Not good for:
 - system design
@@ -159,7 +153,6 @@ Be awere of **confimation bias**. AI will often agree with you even if you are n
 For production ready systems:
 - You must fully understand what you are doing.
 - I find it most valuable in learning and then doing work by myself in better/more optimal/efficient way.
-- I almost never copy paste 1:1 AI code.
 
 ---
 
@@ -167,7 +160,10 @@ For production ready systems:
 
 ---
 
-https://www.youtube.com/watch?v=o1q6Hhz0MAg
+# Are LLMs impostors? 
+
+> https://www.youtube.com/watch?v=o1q6Hhz0MAg
+
 ![Demo](./ml_street_talk.png)
 
 ---
