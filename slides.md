@@ -150,7 +150,9 @@ TODO: how easy it is to install it
 
 <br>
 
-> Frequent AI suggestions had to be reviewed, corrected, or re‑prompted. Only ~39% of AI-generated code was accepted.
+Frequent AI suggestions had to be reviewed, corrected, or re‑prompted. Only ~39% of AI-generated code was accepted.
+
+Sometimes it is faster and more preciese to write solution directly in programming language than solution in english of what you want to archieve.
 
 ![Demo](./devs_forecast_vs_actual.png)
 
