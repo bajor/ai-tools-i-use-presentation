@@ -136,7 +136,21 @@ TODO: how easy it is to install it
 
 ---
 
-# so no issues, all great?
+# So everything is great?
+
+---
+
+![Demo](./critical_failure.png)
+
+---
+
+# "Not So Fast: AI Coding Tools Can Actually Reduce Productivity"
+
+>The results are surprising everyone: a 19 percent decrease in productivity. Even the study participants themselves were surprised: they estimated that AI had increased their productivity by 20 percent.
+
+> https://secondthoughts.ai/p/ai-coding-slowdown
+
+![Demo](./devs_forecast_vs_actual.png)
 
 ---
 
@@ -144,15 +158,9 @@ TODO: how easy it is to install it
 > There’s real value in faster prototyping, scaffolding, and automation. But LLMs don’t remove the need for clear thinking, careful review, and thoughtful design. If anything, those become even more important as more code gets generated.
 https://ordep.dev/posts/writing-code-was-never-the-bottleneck
 
-Not good for:
-- system design
-- complex logic - easier to describle problem in preceise programming language then in vague english
+---
 
-Be awere of **confimation bias**. AI will often agree with you even if you are not right!
-
-For production ready systems:
-- You must fully understand what you are doing.
-- I find it most valuable in learning and then doing work by myself in better/more optimal/efficient way.
+# Bonus
 
 ---
 
@@ -165,5 +173,3 @@ For production ready systems:
 > https://www.youtube.com/watch?v=o1q6Hhz0MAg
 
 ![Demo](./ml_street_talk.png)
-
----
