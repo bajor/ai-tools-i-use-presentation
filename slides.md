@@ -3,7 +3,7 @@ TODO:
 - rewrite to be more clear
 
 
-# Short presentation about how I use AI tools as of Jul 2025 with humble-bragging about my personal projects so you can see real-world use-cases. 
+# Short presentation about how I use AI tools as of July 2025 with humble-bragging about my personal projects so you can see real-world use-cases. 
 
 ---
 
@@ -144,32 +144,40 @@ TODO: how easy it is to install it
 
 ---
 
-# "Not So Fast: AI Coding Tools Can Actually Reduce Productivity"
+# Slowdown on large codebases
 
 >The results are surprising everyone: a 19 percent decrease in productivity. Even the study participants themselves were surprised: they estimated that AI had increased their productivity by 20 percent.
 
-> https://secondthoughts.ai/p/ai-coding-slowdown
+<br>
+
+> Frequent AI suggestions had to be reviewed, corrected, or re‑prompted. Only ~39% of AI-generated code was accepted.
 
 ![Demo](./devs_forecast_vs_actual.png)
+
+<br>
+
+```
+https://secondthoughts.ai/p/ai-coding-slowdown
+```
 
 ---
 
 > LLMs are powerful — but they don’t fix the fundamentals.
+
 > There’s real value in faster prototyping, scaffolding, and automation. But LLMs don’t remove the need for clear thinking, careful review, and thoughtful design. If anything, those become even more important as more code gets generated.
+
+<br>
+
+```
 https://ordep.dev/posts/writing-code-was-never-the-bottleneck
+```
 
 ---
 
-# Bonus
-
----
-
-# maybe there is hope that we could code for living until retirement
-
----
-
-# Are LLMs impostors? 
-
-> https://www.youtube.com/watch?v=o1q6Hhz0MAg
+# Maybe there is hope that we could code for living until retirement. Are LLMs impostors?
 
 ![Demo](./ml_street_talk.png)
+
+```
+https://www.youtube.com/watch?v=o1q6Hhz0MAg
+```
