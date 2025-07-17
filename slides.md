@@ -152,9 +152,7 @@ Sometimes it is faster and more precise to write the solution directly in a prog
 
 ![Demo](./devs_forecast_vs_actual.png)
 
-```
 https://secondthoughts.ai/p/ai-coding-slowdown
-```
 
 ---
 
@@ -162,9 +160,7 @@ https://secondthoughts.ai/p/ai-coding-slowdown
 
 > There’s real value in faster prototyping, scaffolding, and automation. But LLMs don’t remove the need for clear thinking, careful review, and thoughtful design. If anything, those become even more important as more code gets generated.
 
-```
 https://ordep.dev/posts/writing-code-was-never-the-bottleneck
-```
 
 ---
 
