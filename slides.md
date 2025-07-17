@@ -41,11 +41,12 @@ https://docs.github.com/en/copilot
 
 ---
 
-- `4o` model for trivial questions
-- `o3` - for deeper, more reseach oriented - question. Uses chain of thought technique - it evaluates it's own answers and prompts itself to refine response.
-- 15 min deep reseach option for non-trivial questions 
-- I mostly use it for research and self-learning rather than relying on books or YouTube videos. Typically, I code something and ask it for help or to explain a subject when I get stuck.
-- You can personalize it by providing your personal details—once it knows them, it will give you more tailored answers.
+- `4o` model for trivial questions.
+- `o3` model for deeper, more research-oriented questions. It uses the chain-of-thought technique—evaluating its own answers and prompting itself to refine its responses.
+- 15-minute deep research option for non-trivial questions.
+- I mostly use it for research and self-learning rather than relying on books or YouTube videos. Typically, I code something and ask for help or an explanation when I get stuck.
+- I also use it to research various technologies or techniques I am not familiar with.
+- You can personalize it by providing your details—once it knows them, it will give you more tailored answers.
 
 ---
 
