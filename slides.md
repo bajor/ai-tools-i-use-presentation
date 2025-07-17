@@ -1,9 +1,4 @@
-TODO:
-- check spelling
-- rewrite to be more clear
-
-
-# Short presentation about how I use AI tools as of July 2025 with humble-bragging about my personal projects so you can see real-world use-cases. 
+# Short presentation about how I use AI tools as of July 2025 with humble-bragging about my personal projects so you can see real-world use-cases
 
 ---
 
@@ -11,59 +6,61 @@ TODO:
 
 ---
 
-- Selecting parts of code and asking copilot what does it do:
-TODO add <example>
+- Selecting parts of code and asking copilot what does it do
 
-- Askig how would you write this simpler/more optimal:
-<example>
+- Askig how would you write this in a simpler/more optimal way
 
 - General conversation about subject I don't understand:
 general question -> more focused -> example in code
 
-- Generate dummy data:
-<give this prompt, note that ``` because they oftern use markdown for reply>
+- Generate dummy data based on anonimyzed schema
 
-- Generate unit tests - if you don't have QA - could be better than you would write test for your code as it doesn't assume anything, outside perspective
+- Generate unit tests
+    - If you don't have QA - could be better than you would write test for your code as it doesn't assume anything, outside perspective
+
 - Translate from one programming language to another.
 
 ---
 
-- In vs-code you can choose model it will use to answer.
-- In jetbrains products this option is disabled (I think) but it as these agents of `\explain` <add what else is avaliable> 
+- In vs-code you can choose AI model it will use to answer
+- In jetbrains products this option is disabled (I think) but along with copilot you have AI agents at your disposal using commands like `/explain` `/feedback`, `/fix`, `/help`, `/tests`, `/doc`, `/simplify`. Personally I don't use that.
+<br>
 https://www.jetbrains.com/junie/
 
 Comming up:
 - Copilot to review PR:
 https://docs.github.com/en/copilot
-`
+
 > premium feature, available with the Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise plans
 
 ---
 
-# chat gpt
+# ChatGPT
 
 ---
 
-- 4o model for trivial questions - how to boil egg
-- o3 - for deeper, more reseach oriented - question. Uses chain of thought technique - it evaluates it's own answers and prompts itself to refine response.
-- 15 deep reseach option for non-trivial questions 
-- I use it for reseach mostly and to learn myself rather than from books or youtube videos. I usually code something and ask it for help or to explain some subject when I am stuck.
-- tip - personalize it - tell him that for example you are python coder form poland <SHOW HERE SCREENSHOT> - once it nows that it will give you more tailored answers.
-- can use it just by speaking to it and have live conversation. Perhaps good for learning foregin langauges.
+- `4o` model for trivial questions - how to boil egg
+- `o3` - for deeper, more reseach oriented - question. Uses chain of thought technique - it evaluates it's own answers and prompts itself to refine response.
+- 15 min deep reseach option for non-trivial questions 
+- I mostly use it for research and self-learning rather than relying on books or YouTube videos. Typically, I code something and ask it for help or to explain a subject when I get stuck.
+- tip - personalize it - tell him that for example you are programmer etc - once it nows that it will give you more tailored answers.
 
 ---
 
-# codex 
+![Demo](./gpt_customize.png)
 
-available from June 3 for ChatGPT Plus users
+---
+
+# Codex 
+> available from June 3 for ChatGPT Plus users
 
 ---
 
 https://openai.com/index/introducing-codex/
 
-- cloud-based software engineering agent taht can work on many task in parallel.
-- used it to continue long-abandoned project of writing spark features in go.
-- I have very defined, specific tasks for him and this is when it shines I believe. It won't work when you give it very general task - "write me replica of core spark funcitonalities in go". But it will when you ask him to do one very well defined "small" task. 
+- Cloud-based software engineering agent that can work on many tasks in parallel.
+- I used it to continue a long-abandoned project of writing core Spark features in Go.
+- I have very well-defined, specific tasks for it, and this is when it shines, I believe. It won't work when you give it a very general task—like "write me a replica of core Spark functionalities in Go." But it will when you ask it to do one very well-defined, "small"
 
 ---
 
@@ -75,15 +72,16 @@ https://openai.com/index/introducing-codex/
 
 ---
 
-# cursor
-news from 5th of June on techcrunch:
+# Cursor
+
+News from 5th of June on techcrunch:
 > Anysphere, the maker of AI coding assistant Cursor, has raised $900 million at a $9.9 billion valuation, Bloomberg reported.
 
 --- 
 
-- based on vscodium - open-sourced versin of vscode. One for best if not best AI-first IDE now. They had agents at least from over year, I've generated entire front-end for some hobby project while ago now knowing js at all:
-https://www.youtube.com/watch?v=3F9TdbzjDdE
-- I've tried it again this month after a while. It got way better. Now if you are that crazy you can let it execute terminal commands and let it test what it generated. Codex is safer in this regard as it does everything in isolated cloud environment. But I thought yolo and let it run these commands in my terminal but after me approving by hand each of them.
+- Based on VSCodium, the open-source version of VS Code. It is one of the best, if not the best, AI-first IDEs available now. They have had agents for over a year; I generated an entire front end for a hobby project a while ago without knowing JavaScript at all.
+
+- I tried it again this month after some time, and it has improved significantly. Now, if you are crazy, you can let it execute terminal commands and test what it generates. Codex is safer in this regard, as it does everything in an isolated cloud environment. I decided to let it run these commands in my terminal, but only after manually approving each one.
 
 ---
 
@@ -95,7 +93,7 @@ https://www.youtube.com/watch?v=3F9TdbzjDdE
 
 ---
 
-## This month - game totally generated with AI. It corrects it's bugs.
+## This month - game totally generated with AI. It runs code and corrects it's own bugs.
 
 ---
 
@@ -107,28 +105,27 @@ https://www.youtube.com/watch?v=3F9TdbzjDdE
 
 ---
 
-- I do not know well java script or C and was able to build MVPs in these langauges in no time.
-- Great for prototyping of non-critical project elements.
-- There is massive mental overhead to review code and undestand in detail what it wrote - hance best to divide it into small comprehendable tasks.
-- **You need to let it run your computer terminal** (which is crazy) - codex is better in this regard as it runs in isolated cloud env
+- I do not know JavaScript or C well, but I was able to build MVPs in these languages in no time.
+- Great for prototyping non-critical project elements.
+- There is significant mental overhead to review code and understand in detail what it wrote—hence, it is best to divide work into small, comprehensible tasks.
+- **You need to let it run commands in your computer terminal** (which is risky)—Codex is better in this regard, as it runs in an isolated cloud environment.
 
-Bugbot in beta:
-- other cursor feature for reviewing code and finding bugs. Basically AI QA engineer.
+**Bugbot** (in beta):
+- Another Cursor feature for reviewing code and finding bugs. Basically, an AI QA engineer.
+
 https://docs.cursor.com/bugbot
 
 ---
 
-# self-hosted LLMs
+# Self-hosted LLMs
 
 ---
 
-As LLMs are more and more censoured and more and more available to run them locally I've setup not so long ago ollama uncensoured llm model.
-Have it in my local network, connect to it via ssh.
-Works well but the one I have it's gpt 3.5 level - so it's not censourded but not super strong either.
+As LLMs become increasingly censored and more available to run locally, I recently set up an uncensored Ollama LLM model.
+It runs on my local network, and I connect to it via SSH.
+It works well, but the model I have is at about GPT-3.5 level—so it's uncensored but not very strong.
 
-TODO: how easy it is to install it
-
-- trivial to setup
+It's really trivial to set up.
 
 ---
 
@@ -136,7 +133,7 @@ TODO: how easy it is to install it
 
 ---
 
-# So everything is great?
+# So, everything is great?
 
 ---
 
@@ -148,15 +145,11 @@ TODO: how easy it is to install it
 
 >The results are surprising everyone: a 19 percent decrease in productivity. Even the study participants themselves were surprised: they estimated that AI had increased their productivity by 20 percent.
 
-<br>
+Frequent AI suggestions had to be reviewed, corrected, or re‑prompted. Only about 39% of AI-generated code was accepted.
 
-Frequent AI suggestions had to be reviewed, corrected, or re‑prompted. Only ~39% of AI-generated code was accepted.
-
-Sometimes it is faster and more preciese to write solution directly in programming language than solution in english of what you want to archieve.
+Sometimes it is faster and more precise to write the solution directly in a programming language than to describe in English what you want to achieve.
 
 ![Demo](./devs_forecast_vs_actual.png)
-
-<br>
 
 ```
 https://secondthoughts.ai/p/ai-coding-slowdown
@@ -167,8 +160,6 @@ https://secondthoughts.ai/p/ai-coding-slowdown
 > LLMs are powerful — but they don’t fix the fundamentals.
 
 > There’s real value in faster prototyping, scaffolding, and automation. But LLMs don’t remove the need for clear thinking, careful review, and thoughtful design. If anything, those become even more important as more code gets generated.
-
-<br>
 
 ```
 https://ordep.dev/posts/writing-code-was-never-the-bottleneck
