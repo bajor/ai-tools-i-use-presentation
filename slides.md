@@ -24,11 +24,11 @@ general question -> more focused -> example in code
 
 - In vs-code you can choose AI model it will use to answer
 - In jetbrains products this option is disabled (I think) but along with copilot you have AI agents at your disposal using commands like `/explain` `/feedback`, `/fix`, `/help`, `/tests`, `/doc`, `/simplify`. Personally I don't use that.
-<br>
+
 https://www.jetbrains.com/junie/
 
-Comming up:
-- Copilot to review PR:
+- Comming up - Copilot PR review:
+
 https://docs.github.com/en/copilot
 
 > premium feature, available with the Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise plans
@@ -85,7 +85,7 @@ News from 5th of June on techcrunch:
 
 ---
 
-## AI generated front end one year ago. 80% code taken from AI, 20% - my debugging of it.
+## Over one year ago - AI generated frontend. About 80% code taken from AI, 20% written by hand.
 
 ---
 
@@ -93,7 +93,7 @@ News from 5th of June on techcrunch:
 
 ---
 
-## This month - game totally generated with AI. It runs code and corrects it's own bugs.
+## This month - game 100% generated with AI. It runs code and corrects it's own bugs.
 
 ---
 
