@@ -22,8 +22,8 @@ general question -> more focused -> example in code
 
 ---
 
-- In vs-code you can choose AI model it will use to answer
-- In jetbrains products this option is disabled (I think) but along with copilot you have AI agents at your disposal using commands like `/explain` `/feedback`, `/fix`, `/help`, `/tests`, `/doc`, `/simplify`. Personally I don't use that.
+- In VS Code, you can choose which AI model it uses to answer.
+- In JetBrains products, this option is disabled (I think), but along with Copilot you have AI agents at your disposal using commands like `/explain`, `/feedback`, `/fix`, `/help`, `/tests`, `/doc`, and `/simplify`. Personally, I don't use these.
 
 https://www.jetbrains.com/junie/
 
