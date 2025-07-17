@@ -74,7 +74,7 @@ https://openai.com/index/introducing-codex/
 
 # Cursor
 
-News from 5th of June on techcrunch:
+News from June 5th on TechCrunch:
 > Anysphere, the maker of AI coding assistant Cursor, has raised $900 million at a $9.9 billion valuation, Bloomberg reported.
 
 --- 
