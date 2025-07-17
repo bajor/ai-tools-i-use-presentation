@@ -27,6 +27,7 @@ general question -> more focused -> example in code
 
 https://www.jetbrains.com/junie/
 
+
 - Coming up - Copilot PR review:
 
 https://docs.github.com/en/copilot
@@ -171,6 +172,4 @@ https://ordep.dev/posts/writing-code-was-never-the-bottleneck
 
 ![Demo](./ml_street_talk.png)
 
-```
 https://www.youtube.com/watch?v=o1q6Hhz0MAg
-```
