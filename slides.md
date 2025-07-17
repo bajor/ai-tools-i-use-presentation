@@ -1,4 +1,4 @@
-# Short presentation about how I use AI tools as of July 2025 with humble-bragging about my personal projects so you can see real-world use-cases
+# how I use AI tools as of July 2025 with humble-bragging about my personal projects so you can see real-world use-cases
 
 ---
 
