@@ -43,7 +43,7 @@ https://docs.github.com/en/copilot
 - `o3` - for deeper, more reseach oriented - question. Uses chain of thought technique - it evaluates it's own answers and prompts itself to refine response.
 - 15 min deep reseach option for non-trivial questions 
 - I mostly use it for research and self-learning rather than relying on books or YouTube videos. Typically, I code something and ask it for help or to explain a subject when I get stuck.
-- tip - personalize it - tell him that for example you are programmer etc - once it nows that it will give you more tailored answers.
+- You can personalize it by providing your personal details—once it knows them, it will give you more tailored answers.
 
 ---
 
