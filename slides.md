@@ -41,7 +41,7 @@ https://docs.github.com/en/copilot
 
 ---
 
-- `4o` model for trivial questions - how to boil egg
+- `4o` model for trivial questions
 - `o3` - for deeper, more reseach oriented - question. Uses chain of thought technique - it evaluates it's own answers and prompts itself to refine response.
 - 15 min deep reseach option for non-trivial questions 
 - I mostly use it for research and self-learning rather than relying on books or YouTube videos. Typically, I code something and ask it for help or to explain a subject when I get stuck.
