@@ -27,7 +27,7 @@ general question -> more focused -> example in code
 
 https://www.jetbrains.com/junie/
 
-- Comming up - Copilot PR review:
+- Coming up - Copilot PR review:
 
 https://docs.github.com/en/copilot
 
